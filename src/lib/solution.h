@@ -3,10 +3,15 @@
 
 #include <string>
 #include <vector>
+using std::string;
 
 class Solution {
 public:
-  std::string PrintHelloWorld();
+int Add(int a, int b);
+string Add(std::string a,std::string b);
+string Add(string a, int b);
 };
 
+
 #endif
+
